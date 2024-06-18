@@ -87,7 +87,7 @@ public class Main {
      */
     public static void compareNumbers() {
          System.out.println("\nex 4");
-        int a, b, c;
+        int a, b;
         a = 50;
         b = 23;
         if (a >= b) {
@@ -166,7 +166,7 @@ public class Main {
      *
      * @param args Массив, в котором происходит замена
      */
-    public static void flipBinaryArray(int args[]) {
+    public static void flipBinaryArray(int[] args) {
         System.out.println("\nex 10");
         for (int i = 0; i < args.length; i++) {
             if (args[i] == 0) {
